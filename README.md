@@ -4,14 +4,14 @@ Introduction
 This project implements a plagiarism detection system using machine learning. It leverages TF-IDF vectorization and a Support Vector Machine (SVM) model to classify text as plagiarized or original. The system is deployed as a Flask web application, providing a user-friendly interface to input text and receive plagiarism detection results.
 Project Structure
 Plagiarism_checker_ML/
-├── app.py                                    # Flask application for the web interface
+├── app.py                                    # Flask application for the web interface ==>
 ├── templates/
-│   └── index.html                           # HTML template for the web interface
-├── model.pkl                                # Trained SVM model (serialized)
-├── tfidf_vectorizer.pkl                     # TF-IDF vectorizer (serialized)
-├── dataset.csv                              # Dataset for training the model
-├── README.md                                # Project documentation
-├── Building Plagiarism checker using Machine Learning.ipynb  # Jupyter notebook for model training
+│   └── index.html                           # HTML template for the web interface==>
+├── model.pkl                                # Trained SVM model (serialized)==>
+├── tfidf_vectorizer.pkl                     # TF-IDF vectorizer (serialized)==>
+├── dataset.csv                              # Dataset for training the model==>
+├── README.md                                # Project documentation==>
+├── Building Plagiarism checker using Machine Learning.ipynb  # Jupyter notebook for model training==>
 
 Requirements
 
